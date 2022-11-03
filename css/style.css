@@ -114,7 +114,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-	 transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
+	  transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
     line-height: 173.3%;
     font-family: 'Radiotechnika';
     text-align: center;
@@ -133,4 +133,10 @@
     font-family: 'Open Sans';
     letter-spacing: 0.16em;
     color: #000000;
+  }
+
+  .footer-hc {
+    width: auto;
+    height: 620px;
+    background-color: #000000;
   }
