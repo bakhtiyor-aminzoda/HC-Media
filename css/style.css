@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "Radiotechnika"; 
+    src: url("/fonts/Radiotechnika.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
+
+
+
+  .btn-serv {
+    border: 3px solid black;
+    background-color: transparent;
+    width: 196px;
+    height: 48px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 173.3%;
+    font-family: 'Radiotechnika';
+    text-align: center;
+    color: #000000;
+  }
+
+  .btn-serv:hover {
+    background-color: black;
+    color: #FFFFFF;
+  }
+
+  .nav-bar {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+
+  .nav-bar a {
+    text-decoration: none;
+    position: relative; 
+	cursor: pointer;
+	text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 15px;
+    font-family: 'Radiotechnika';
+    color: #7C7C7C;    
+  }
+
+  .nav-bar a:after {
+	display: block;
+	position: absolute;
+	left: 0; 
+	width: 0;
+	height: 2px; 
+    color: #7C7C7C;
+	background-color: #000000; 
+	content: "";
+	transition: width 0.3s ease-out; 
+}
+
+.nav-bar a:hover:after,
+.nav-bar a:focus:after {
+  width: 100%; 
+  color: #7C7C7C;
+}
+
+.nav-bar a:hover {
+    color: black;
+}
+
+  .nav-bar li {
+    list-style: none;
+  }
+
+
+
+  .mate {
+    display: flex;
+    margin-bottom: 15px;
+  }
+
+  .sponsers {
+    width: auto;
+    height: 250px;
+    background-color: #FFFFFF;
+  }
+
+  .nav-spons img {
+    margin: 4px;
+  }
+
