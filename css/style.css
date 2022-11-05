@@ -81,7 +81,143 @@
     list-style: none;
   }
 
+  .menu_top_footer {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+  }
 
+  .menu_top_footer li {
+    display: inline;
+  }
+
+  .menu_top_footer a {
+    font-family: 'Radiotechnika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    color: #505050;
+  }
+
+
+  .nav-bar-footer {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+    padding-top: 58px;
+    margin-left: 0;
+  }
+
+  .title-footer {
+    text-align: center;
+    margin-top: 115px;
+  }
+
+  .title-footer p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 19px;
+    font-family: 'Radiotechnika';
+    color: #FFFFFF;
+  }
+
+  .title-footer a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 19px;
+    font-family: 'Radiotechnika';
+    color: #5F87EF;
+    text-decoration: none;
+  }
+
+  .title-footer a:hover {
+    color: #FFFFFF;
+  }
+
+  .title_footer a:hover {
+    color: #ffffff;
+  }
+
+
+  .title_footer {
+    text-align: center;
+    padding-top: 51px;
+  }
+
+  .title_footer span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 19px;
+    text-align: center;
+    font-family: 'Radiotechnika';
+    color: #FFFFFF;
+  }
+
+  .span-german {
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 20px;
+    font-size: 20px;
+    line-height: 19px;
+    text-align: center;
+    font-family: 'Radiotechnika';
+    color: #FFFFFF;
+  }
+
+  .title_footer a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 19px;
+    text-align: center;
+    font-family: 'Radiotechnika';
+    color: #5F87EF;
+  }
+
+  .nav-bar-footer a {
+    text-decoration: none;
+    position: relative; 
+	  cursor: pointer;
+	  text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 30px;
+    font-family: 'Radiotechnika';
+    color: #FFFFFF;    
+  }
+
+  .nav-bar-footer a:after {
+	display: block;
+	position: absolute;
+	left: 0; 
+  text-align: center;
+	width: 0;
+	height: 2px; 
+  color: #7C7C7C;
+	background-color: #ffffff; 
+	content: "";
+	transition: width 0.3s ease-out; 
+}
+
+.nav-bar-footer a:hover:after,
+.nav-bar-footer a:focus:after {
+  width: 100%; 
+  color: #7C7C7C;
+}
+
+.nav-bar-footer a:hover {
+    color: rgb(255, 255, 255);
+}
+
+  .nav-bar-footer li {
+    display: inline;
+  }
 
   .mate {
     display: flex;
@@ -137,6 +273,6 @@
 
   .footer-hc {
     width: auto;
-    height: 620px;
+    height: 665px;
     background-color: #000000;
   }
