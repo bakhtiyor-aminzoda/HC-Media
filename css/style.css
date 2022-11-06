@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: "Radiotechnika"; 
-    src: url("/fonts/Radiotechnika.otf") format("truetype"); 
+    src: url("fonts/Radiotechnika.otf") format("truetype"); 
     font-style: normal; 
     font-weight: normal; 
     } 
