@@ -273,5 +273,6 @@
   .footer-hc {
     width: auto;
     height: 665px;
+    text-align: center;
     background-color: #000000;
   }
