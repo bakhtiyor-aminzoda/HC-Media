@@ -304,3 +304,8 @@
   .txt-footer {
     margin-top: 150px;
   }
+
+.container-fluid { 
+	display: flex;
+	justify-content: space-between;
+}
